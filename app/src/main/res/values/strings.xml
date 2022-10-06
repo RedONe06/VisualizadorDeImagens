@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Visualizador de imagens</string>
+    <string name="foto_1">Foto 1</string>
+    <string name="exibir_foto_1">Exibir foto 1</string>
+    <string name="exibir_foto_2">Exibir foto 2</string>
+    <string name="switcher">Foto 1</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgFoto"
+            android:src="@drawable/image1"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/switcher"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"
+            android:switchMinWidth="56dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:checked="true"
+            android:textOff="Imagem 1"
+            android:textOn="Imagem 2"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
